@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_site"
+        android:icon="@drawable/ic_public_white_24px"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="免费站点" />
+    <item
+        android:id="@+id/menu_output"
+        android:icon="@drawable/ic_archive_white_24px"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="全部导出"/>
+    <item
+        android:id="@+id/menu_copy_all"
+        android:icon="@drawable/ic_content_copy_white_24px"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="全部复制" />
+</menu>

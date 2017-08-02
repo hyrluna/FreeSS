@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light">
+        <Button
+            android:id="@+id/btnCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy"/>
+
+        <Button
+            android:id="@+id/base64"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Base64"/>
+        <!--<LinearLayout-->
+            <!--android:id="@+id/selector_container"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/holo_orange_light">-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+</layout>
